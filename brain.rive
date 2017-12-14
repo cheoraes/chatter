@@ -1,0 +1,17 @@
+// Chatbot's brain
+! version = 2.0
+
+! sub who's = who is
++ *
+- intenta decir toc toc
+
++ [*] toc toc [*]
+- Quien es
+
++ *
+% quien es
+- <star1> quien
+
++ *
+% * quien
+-  <star1> jajajaja, me has pillado, yipi yai yei hija de puta
