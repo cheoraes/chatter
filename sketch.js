@@ -10,7 +10,7 @@ function setup() {
 
 	// -------------
 	// SPEECH RECOGNITION
-	let speechRec = new p5.SpeechRec('es-ES',gotSpeech);
+	let speechRec = new p5.SpeechRec('es_ES',gotSpeech);
 	let continuous = false;
 	let interim = false;
 	speechRec.start(continuous,interim);
