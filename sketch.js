@@ -15,6 +15,8 @@ function setup() {
 	let interim = false;
 	speechRec.start(continuous,interim);
 	function voiceReady(){
+		let voices = speech.voices;
+		let voice = voices[6];
 		console.log(speech.voices);
 		//speech.speak('Estoy Preparado para hablar');
 	}
