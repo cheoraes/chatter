@@ -14,25 +14,25 @@
 	  crossorigin="anonymous"></script>
 	<script src="libraries/p5.js"></script>
 	<script src="libraries/p5.dom.js"></script>
-	<script src="libraries/p5.sound.js"></script>
+	<!-- <script src="libraries/p5.sound.js"></script> -->
 	<script src="libraries/p5.speech.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
 	<script src="sketch.js"></script>
 </head>
 
 <body>
+  <div id ="canvascontainer"></div>
 
-	<h1>Chatbot</h1>
-		<button id="test">test</button>
-	<p>
-		say: <input id="user_input"></input>
-		<button id="submit">submit</button>
-	</p>
+  <p>
+    <button id="saveButton">save</button>
+    <button id="clearButton">clear</button>
+  </p>
 
-	<p>
-		reply: <span id="output"></span>
-	</p>
+  <p>
+    <ol id="drawinglist">
 
-
+    </ol>
 </body>
+
 
 </html>
